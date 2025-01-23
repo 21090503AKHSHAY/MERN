@@ -11,3 +11,4 @@ for(let i in set){
     console.log("loop is running")
     console.log(i)
 }
+
