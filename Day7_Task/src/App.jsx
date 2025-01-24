@@ -3,10 +3,14 @@ import Contact from "./Components/Contact"
 <components></components>
 
 function App() {
-  return (<section>
+  return (
+    <center>
+ <section>
     <Gallery/>
     <Contact/>
-  </section>)
+  </section>
+    </center>
+ )
         
 }
 
