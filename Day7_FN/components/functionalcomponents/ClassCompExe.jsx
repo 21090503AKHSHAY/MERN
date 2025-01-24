@@ -1,5 +1,5 @@
 import React from 'react'
-class ClassCompExe extends React.Component{
+export default  class ClassCompExe extends React.Component{
     render (){
         return (
             <div>
@@ -8,5 +8,4 @@ class ClassCompExe extends React.Component{
         )
     }
     
-}
-export default ClassCompExe
+} 
