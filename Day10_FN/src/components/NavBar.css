@@ -1,0 +1,45 @@
+nav {
+    padding: 10px 0; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content:flex-start; 
+  }
+  
+  nav ul li {
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+
+  .Link {
+    text-decoration: none;
+    color: white; 
+  }
+  
+  nav ul li:hover {
+    background-color: #6b492e; 
+    border-radius: 5px; 
+  }
+  
+  .dropdown{
+    padding:10px;
+    position: relative;
+  }
+
+  .dropdown ol{
+    position: absolute;
+  }
+
+  .dropdown ol li{
+    list-style: none;
+  }
+
+  ol{
+    background-color:#996d4a;
+  }
